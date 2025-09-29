@@ -10,6 +10,13 @@ def Eggyenlotlenseg():
 
     print(f"Ezekkel az oldalakkal{"" if possible else " nem"} lehetséges háromszöget csinálni!")
 
+def Teglalap():
+    a = float(input("Téglalap egyik oldala: "))
+    b = float(input("Téglalap másik oldala: "))
+
+    print(f"A téglalap kerülete {2*(a+b)}\nTéglalap területe: {a*b}")
+
+Teglalap()
 
 if __name__ == "__main__":
     Eggyenlotlenseg()
